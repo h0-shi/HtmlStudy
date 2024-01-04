@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <style>
+
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .navi{
+            width: 100%;
+            height: 30px;
+            text-align: center;
+            background-color: black;
+        }
+        .menu{
+            /* list의 ● 제거  */
+            list-style: none;
+            width: auoto;
+            height: 30px;
+            margin: 0px;
+            text-align: center;
+        }
+        /* menu의 li */
+        .menu li{
+            width: 100px;
+            height: 30px;
+            color: white;
+            line-height: 30px;
+            display: inline-block;
+        }
+        .menu li:hover{
+            background-color: white;
+            color: black;
+        }
+        main{
+            background-color: gray;
+            margin: 0px 5px;
+            height: auto;
+            width: calc(100% -10px);
+        }
+        footer{
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            height: 50px;
+            background-color: gray;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navi">
+        <ul class="menu">
+            <li>홈</li>
+            <li>스토어</li>
+            <li>맥</li>
+            <li>아이패드</li>
+        </ul>
+    </nav>
+    <div>
+        <main>
+            본문 내용
+            <br>
+            <div style="width: 100px; height: 100px; float: left; border: 3px solid blue; padding: 10px; background-color: yellow; ">
+                contents in the box    
+            </div>
+            <!-- margin은 border 바깥, padding은 border 안쪽 -->
+            <div style="width: 100px; height: 100px; float: left; border: 3px solid burlywood; margin: 10px; padding: 10px; background-color: green;">
+                contents in the box    
+            </div>
+            <a href="./position.html">포지션</a>
+        </main>
+    </div>
+    <footer>
+        하단이에요
+    </footer>
+</body>
+</html>

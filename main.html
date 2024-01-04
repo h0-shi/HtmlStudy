@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- '남자' 글자를 선택하면 체크박스 작동 -->
+    <label for="남자">남자</label><input type="checkbox" id = "남자"> <br>
+
+    <input type="checkbox" name="hobby" value="sleep"><label>잠자기</label><br>
+    <input type="checkbox" name="hobby" value="game"><label>게임</label><br>
+    <input type="checkbox" name="hobby" value="singing"><label>노래</label><br>
+    <input type="checkbox" name="hobby" value="playInst"><label>연주</label><br>
+    <input type="checkbox" name="hobby" value="wasteTime"><label>멍</label><br>
+    <input type="checkbox" name="hobby" value="walkAround"><label>산책</label><br>
+    <input type="checkbox" name="hobby" value="alcholeHolic"><label>음주</label><br>
+
+    <hr>
+
+    <input type="radio" name="gedner" value="male"><label>남</label><br>
+    <input type="radio" name="gender" value="female"><label>여</label><br>
+    <input type="radio" name="gender" value="none"><label>모름</label><br>
+
+    <hr>
+
+    <form>
+        <input type="text" name="id">
+        <input type="password" name="pw">
+        <!-- 리셋버튼 만드는 두가지 방법 -->
+        <button type="reset">초기화</button>
+        <input type="reset" value="리셋버튼">초기화
+        <button type="submit">로그인</button>
+        <input type="hidden" name="key" value="0123456789">
+    </form>
+<!-- 비디오 넣는 방법 1과 2 -->
+    <!-- <video controls="controls" src="C:/temp/video.mp4"></video> -->
+    <!-- <video controls="controls">
+        <source src="C:/temp/video.mp4">
+    </video> -->
+
+    <audio controls autoplay>
+        <source src="C:/temp/Our Night.mp3">
+    </audio>
+
+    <div>이 녀석은 영역태그입니다.</div> div가 영역태그에여
+    <a href="./div.html">div 연습!</a>
+</body>
+</html>
